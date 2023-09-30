@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Demo {
 
-    @GetMapping("/ping")
+    @GetMapping("")
     public String ping(){
-        return "ping";
+        return "<h1>Abhishek Sangani</h1>";
     }
 }
