@@ -8,6 +8,8 @@ public class Demo {
 
     @GetMapping("/ping")
     public String ping(){
-        return "<h1>Abhishek Dilipbhai Sangani</h1>";
+        System.out.println("true = " + true);
+        System.out.println("false= " + false);
+        return "<h1>Abhishek Sangani</h1>";
     }
 }
